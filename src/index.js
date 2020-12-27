@@ -42,7 +42,7 @@ function markupResult(countries) {
   } else if (countries.length > 10) {
     outputInfo(
       error,
-      'To many matches found. Please enter a more specific query!',
+      'Убедитесь в правильности ввода!',
     );
   } else {
     outputInfo(info, 'Ничего не найдено!');
