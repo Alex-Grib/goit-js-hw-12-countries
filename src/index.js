@@ -45,7 +45,7 @@ function markupResult(countries) {
       'To many matches found. Please enter a more specific query!',
     );
   } else {
-    outputInfo(info, 'No matches found!');
+    outputInfo(info, 'Ничего не найдено!');
   }
 }
 
